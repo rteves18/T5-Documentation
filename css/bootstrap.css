@@ -108,6 +108,8 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+
+
 button,
 input,
 optgroup,
@@ -1171,6 +1173,7 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+
 h1,
 h2,
 h3,
@@ -1288,6 +1291,19 @@ h6,
 }
 p {
   margin: 0 0 10px;
+}
+.example {
+font-family: Georgia, serif;
+font-size: 16px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+border-left:3px dashed #c1c1c1;
+background:#eee;
 }
 .lead {
   margin-bottom: 20px;
@@ -1477,7 +1493,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 17.5px;
+  font-size: 30.5px;
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
@@ -1536,7 +1552,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  color: #00FF00;
   background-color: #f9f2f4;
   border-radius: 4px;
 }
